@@ -40,12 +40,12 @@ static struct {
 		"Show this help"},
 	{ "Exit",		cmd_exit,	"",
 		"Exit interactive mode" },
-    { "Power-Switch",	powerSwitch,	"<val>",
+    { "Power-Switch",	powerSwitch,	"<0/1>",
 			"Power On/Off" },
-    { "Set-Voltage",	setVoltage,	"<val>",
+    { "Set-Voltage",	setVoltage,	"<voltage>",
 			"set Voltage to a defined value" },
-    { "Protect-Voltage",	protectVoltage,	"<val>",
-			"protect Voltage from being changed" },
+    { "Protect-Voltage",	protectVoltage,	"<voltage>",
+			"Protect Voltage from being changed" },
     { NULL, NULL, NULL}
 };
 
